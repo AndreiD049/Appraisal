@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:localv="clr-namespace:AppRaisal.Views"
+                    xmlns:localvm="clr-namespace:AppRaisal.ViewModels"
+                    xmlns:local="clr-namespace:AppRaisal.Resources">
+    <DataTemplate DataType="{x:Type localvm:HomePageViewModel}">
+        <localv:HomePage />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type localvm:SettingsPageViewModel}">
+        <localv:SettingsPage />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type localvm:AppraisalsViewModel}">
+        <localv:NewAppraisalsPage />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type localvm:AppraisalDetailsViewModel}">
+        <localv:AppraisalDetailsPage />
+    </DataTemplate>
+</ResourceDictionary>

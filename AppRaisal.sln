@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppRaisal", "AppRaisal\AppRaisal.csproj", "{DB0E4E56-F03F-4264-9B02-A690C4223311}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsole", "..\TestConsole\TestConsole\TestConsole.csproj", "{ADDBF97F-ADC1-486A-B573-DB6E82415412}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB0E4E56-F03F-4264-9B02-A690C4223311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0E4E56-F03F-4264-9B02-A690C4223311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0E4E56-F03F-4264-9B02-A690C4223311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0E4E56-F03F-4264-9B02-A690C4223311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADDBF97F-ADC1-486A-B573-DB6E82415412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADDBF97F-ADC1-486A-B573-DB6E82415412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADDBF97F-ADC1-486A-B573-DB6E82415412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADDBF97F-ADC1-486A-B573-DB6E82415412}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69C3A247-56D3-473A-BAC9-140243D05BAD}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:AppRaisal.Resources">
+    <Style x:Key="DarkBoldFont" TargetType="{x:Type Label}">
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Foreground" Value="{StaticResource Dark}"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+    </Style>
+    <!-- Empty collection notifier -->
+    <Style x:Key="sCollectionEmpty" TargetType="{x:Type ItemsControl}">
+        <Style.Triggers>
+            <DataTrigger
+                Binding="{Binding RelativeSource={RelativeSource Mode=Self}, Path=Items.Count}"
+                Value="0">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate>
+                            <StackPanel Orientation="Vertical">
+                                <TextBlock Text="No items here yet..." 
+                                           FontSize="{StaticResource FontSizeMedium}" 
+                                           Foreground="{StaticResource Dark}" 
+                                           Padding="20" 
+                                           HorizontalAlignment="Center" />
+                                <Image Source="/Resources/Images/Shelf.png" Width="400"/>
+                            </StackPanel>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>
